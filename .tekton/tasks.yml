@@ -1,7 +1,7 @@
 apiVersion: tekton.dev/v1beta1
 kind: Task
 metadata:
-  namd: cleanup
+  name: cleanup
 spec:
   workspaces:
     - name: source
